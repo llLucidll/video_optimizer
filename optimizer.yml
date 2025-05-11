@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  fireshare-optimizer:
+    build:
+      context: #path to built image here.
+    image: fireshare-optimizer:latest
+    container_name: fireshare_optimizer
+    restart: unless-stopped
+    volumes:
+      - #Your volume path here
