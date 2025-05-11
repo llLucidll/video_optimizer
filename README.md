@@ -1,5 +1,5 @@
-How to setup:
-(All setup is written in powershell as you have much better alternatives than this on native linux)
+**How to setup:
+(All setup is written in powershell as you have much better alternatives than this on native linux)**
 1. Build the initial image at the directory containing optimize.sh and Dockerfile with:
 
   docker build -t fireshare-optimizer:latest .
